@@ -1,0 +1,42 @@
+* {
+  color: purple;
+}
+
+h1 {
+  color: rgb(255, 0, 221);
+  background-color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(255, 0, 234);
+  font-size: 20px;
+}
+
+.title {
+  color: rgb(255, 0, 234);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+
+p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#ola {
+  color: rgb(77, 2, 75);
+}
+
+.class-div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
