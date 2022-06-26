@@ -20,12 +20,15 @@
 .menu-top {
   display: flex;
 }
+
+
 .menu-top li {
   margin-left: 4px;
 }
 .menu-top li a {
   display: block;
   padding: 10px;
+
 }
 a.menu-botao {
   color: white;
@@ -37,7 +40,7 @@ a.menu-botao {
 }
 a.menu-botao:hover {
   background-color: #F0F2F2;
-  color: black;
+  color: rgb(153, 0, 255);
   font-weight: bold;
 }
 * {
@@ -48,17 +51,18 @@ a.menu-botao:hover {
   
   body {
     font-family: sans-serif;
-    background-image: url("../img/J25.jpg");
+    background-image: url("/logar/img/fundo\ imagem\ site.jpg");
   }
   #logo {
     font-family: "Limelight", cursive;
+    background-image: url(/logar/img/LaViolet.gif);
   }
   
   #form {
-    padding: 50px;
-    background-color: white;
-    border-radius: 15px;
-    max-width: 420px;
+    padding: 30px;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    max-width: 350px;
     margin: 100px auto;
     z-index: 2;
   }
@@ -70,9 +74,8 @@ a.menu-botao:hover {
   }
   
   #form h1 {
-    color: black;
+    color: rgb(4, 4, 4);
     font-family: Arial, cursive;
-    /* transition: all 0.5s ease-in-out; */
     text-align: center;
     line-height: 1.5;
   }
@@ -98,13 +101,6 @@ a.menu-botao:hover {
   ::-webkit-input-placeholder{
     color: gray;
   }
-  div.maioridade {
-    margin: 0 0 20px 0;
-  }
-  /* .caixa_dados {
-    transition: all 0.5s ease-in-out;
-  }
-   */
   button {
     justify-content: center;
     text-align: center;
@@ -114,9 +110,51 @@ a.menu-botao:hover {
     border: none;
     background: none;
     color: white;
-    background-color: red;
-    /* transition: all 0.5s ease-in-out; */
+    background-color: rgb(234, 0, 255);
     font-size: 15px;
     font-family: "Arial", cursive;
   }
+
+  #enviar, #limpar {
+    margin-top: 20px;
+  }
   
+
+  #email, #senha, #nome {
+    padding: -20px;
+    align-items: center;
+  }
+
+#form > h1:hover{
+    color: rgb(248, 6, 240);
+}
+
+.caixa_dados:hover{
+    border-radius: 5px;
+    color: black;
+}
+/* Troca de cor do botão */
+button:hover{
+    background-color: rgba(137, 43, 226);
+    color: rgba(10, 10, 10, 0.6);
+    font-weight: bold;
+}
+
+footer #footer {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: white;
+  z-index: 4;
+}
+#footer h2{
+  color: white;
+  padding: 20px;
+  font-family: "Arial", cursive;
+  font-size: 14px;
+  text-align: center;
+  background-color: black;
+}
