@@ -104,17 +104,12 @@ flex-direction: column;
 }
 
 
-.banner_options {
+.banner_options1 {
   height: 120px;
-  background: rgb(60, 1, 1);
+  background: rgb(255, 0, 0);
   display: flex;
 }
 
-.banner_options1 {
-  height: 200px;
-  background: rgb(0, 0, 0);
-  display: flex;
-}
 
 .banner1,
 .banner2,
@@ -191,7 +186,6 @@ flex-direction: column;
   font-size: 45px;
   margin: 10px;
 }
-
 
 button {
   background-color: transparent;
@@ -331,6 +325,7 @@ border-radius: 10px;
   margin-top: 20px;
   height: 100px;
   align-items: center;
+  background-color: red;
 }
 
 .info-container{
